@@ -5,7 +5,7 @@
 
 double Exponent(int x) {
     double eExpo = 1;
-    if (x > -1) {
+    if (x > -1) { 
         for (int i = 0; i < x; ++i) {
             eExpo *= E;
         }
