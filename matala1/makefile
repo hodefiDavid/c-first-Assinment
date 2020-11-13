@@ -28,7 +28,7 @@ basicMath.o: basicMath.c
 .PHONY: clean all mymaths mymathd
 
 clean:
-	rm -f *.a *.so *.o mains maind
+	rm -f *.a *.so *.o mains maind 
 		
 	
 
