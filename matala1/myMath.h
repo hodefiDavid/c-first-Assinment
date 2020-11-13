@@ -14,4 +14,4 @@ double Exponent(int x) ;
 double Power(double x , int y);
 int down (double x);
 
-#endif //UNTITLED1_MYMATH_H
+#endif //UNTITLED1_MYMATH_H 
