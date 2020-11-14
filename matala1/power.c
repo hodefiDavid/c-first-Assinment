@@ -5,7 +5,7 @@
 
 double Exponent(int x) {
     double eExpo = 1;
-    if (x > -1) { 
+    if (x > -1) {
         for (int i = 0; i < x; ++i) {
             eExpo *= E;
         }
@@ -22,16 +22,16 @@ double Exponent(int x) {
 
 double Power(double x, int y) {
     double xExpo = 1;
-    if (y >= 0) {
+    if (x >= 0) {
 
-        if (x >= 0) {
+        if (y >= 0) {
             for (int i = 0; i < y; ++i) {
                 xExpo *= x;
             }
             return xExpo;
         } else {
-            for (int i = 0; i < y; ++i) {
-                xExpo *= -x;
+            for (int i = 0; i < -y; ++i) {
+                xExpo /= x;
 
             }
             return xExpo;
@@ -39,14 +39,14 @@ double Power(double x, int y) {
         }
     }
     else{
-        if (x >= 0) {
+        if (y >= 0) {
             for (int i = 0; i < y; ++i) {
-                xExpo /= x;
+                xExpo *= x;
             }
             return xExpo;
         } else {
-            for (int i = 0; i < y; ++i) {
-                xExpo /= -x;
+            for (int i = 0; i < -y; ++i) {
+                xExpo /= x;
 
             }
             return xExpo;
